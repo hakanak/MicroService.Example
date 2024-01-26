@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33414.496
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "LogModule", "LogModule", "{9EB78265-370C-4CC2-9252-7C55EC9C8F92}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LogService.API", "LogModule\LogService.API\LogService.API.csproj", "{464A03B6-9848-4E12-90FD-E189DABC50FB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LogService.Data", "LogModule\LogService.Data\LogService.Data.csproj", "{E9096367-BEDA-47ED-AD0D-2AAE915452D7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{464A03B6-9848-4E12-90FD-E189DABC50FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{464A03B6-9848-4E12-90FD-E189DABC50FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{464A03B6-9848-4E12-90FD-E189DABC50FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{464A03B6-9848-4E12-90FD-E189DABC50FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E9096367-BEDA-47ED-AD0D-2AAE915452D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E9096367-BEDA-47ED-AD0D-2AAE915452D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E9096367-BEDA-47ED-AD0D-2AAE915452D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E9096367-BEDA-47ED-AD0D-2AAE915452D7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{464A03B6-9848-4E12-90FD-E189DABC50FB} = {9EB78265-370C-4CC2-9252-7C55EC9C8F92}
+		{E9096367-BEDA-47ED-AD0D-2AAE915452D7} = {9EB78265-370C-4CC2-9252-7C55EC9C8F92}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F88BCBCE-8607-41F4-AC2C-5210DA9E1028}
+	EndGlobalSection
+EndGlobal
